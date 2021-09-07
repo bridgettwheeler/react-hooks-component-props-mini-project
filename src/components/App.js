@@ -2,8 +2,8 @@ import React from "react";
 import blogData from "../data/blog";
 import Header from "./Header";
 import About from "./About";
-import articleList from "./ArticleList";
-import Article from "./Article";
+import ArticleList from "./ArticleList";
+
 
 console.log(blogData);
 
