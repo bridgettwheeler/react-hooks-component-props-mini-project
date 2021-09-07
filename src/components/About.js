@@ -1,13 +1,16 @@
 import React from "react";
 import App from "./App";
 
-function About(props) {
+function About({ image="https://via.placeholder.com/215", about }) {
     return (
         <aside>
-            <img src={props.image} alt= "blog logo" default="https://via.placeholder.com/215"/>
-            <p>{props.about}</p>
+            <img src={image} alt= "blog logo" />
+            <p>{about}</p>
         </aside>
+        
     )
+    console.log(props)
 
-    export default About;
+    
 }
+export default About;
